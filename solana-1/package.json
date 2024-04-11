@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "dev": "tsc && node out/scripts.js",
+    "generate": "yarn esrun scripts/keypair.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@solana-developers/helpers": "^2.3.0",
+    "@solana/web3.js": "^1.91.4",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "name": "solana-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
