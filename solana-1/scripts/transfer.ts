@@ -50,3 +50,7 @@ const LAMPORTS_TO_SOL = LAMPORTS_TO_SEND / LAMPORTS_PER_SOL;
 console.log(`Finished! sent ${LAMPORTS_TO_SOL} to address ${toPubkey}`);
 
 console.log(`Transaction signature is ${signature}`);
+
+connection.getBalance(senderKeypair.publicKey).then((value) => {
+  console.log("Remaining SOL: ", value / LAMPORTS_PER_SOL);
+});
