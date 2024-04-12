@@ -1,7 +1,9 @@
 {
   "scripts": {
     "dev": "tsc && node out/scripts.js",
-    "generate": "yarn esrun scripts/keypair.ts"
+    "generate": "npx esrun scripts/keypair.ts",
+    "get-balance": "npx esrun scripts/get-balance.ts",
+    "transfer": "npx esrun scripts/transfer.ts 65xeoGaQqZZNKVwYr9fADSeH2XGer3JeWtG3iNvkogNV"
   },
   "dependencies": {
     "@metaplex-foundation/js": "^0.20.1",
