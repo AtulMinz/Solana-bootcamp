@@ -5,6 +5,7 @@ import {
   sendAndConfirmTransaction,
   PublicKey,
   LAMPORTS_PER_SOL,
+  VersionedTransaction,
 } from "@solana/web3.js";
 
 import "dotenv/config";
